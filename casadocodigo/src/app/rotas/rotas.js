@@ -1,5 +1,3 @@
-const db = require('../../config/database');
-
 module.exports = (app) =>{
     app.get('/', function(req, resp){
         resp.send(
@@ -11,6 +9,8 @@ module.exports = (app) =>{
             <title>Server rodando...</title>
             <body>
                 <h1>Casa do Código</h1>
+				<br>
+				Esta página eh HTML puro
             </body>
             </html>
         `
