@@ -1,3 +1,4 @@
-casadocodigo/node_modules/*
-casadocodigo/src/app/views/livros/lista/lista.marko.js
-casadocodigo/package-lock.json
+# dependencies
+/node_modules
+package-lock.json
+ntask.sqlite
