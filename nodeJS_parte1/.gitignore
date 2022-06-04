@@ -1,0 +1,3 @@
+autenticacao-token-jwt/node_modules/*
+autenticacao-token-jwt/package-lock.json
+.vscode

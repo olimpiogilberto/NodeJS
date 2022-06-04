@@ -1,0 +1,17 @@
+curl --request POST \
+  --url http://localhost:8080/api/tasks \
+  --header 'content-type: application/json' \
+  --data '{
+      "title": "Desenvolver front",
+      "done": "true",
+	    "UserId": 1
+}'
+
+curl --request POST \
+  --url http://localhost:8080/api/users \
+  --header 'content-type: application/json' \
+  --data '{
+      "titulo": "Gilberto Olimpio dos Santos",
+      "password": "admin",
+      "email": "giba1984@gmail.com"
+}'
